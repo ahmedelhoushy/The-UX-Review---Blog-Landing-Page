@@ -1,0 +1,130 @@
+@media (max-width: 1024px) {
+.nav-search .btn{
+    display: none;
+}
+.hero-details .trending-btn{
+    padding: 10px;
+}
+#lastes-articles .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .article-content-details {
+        width: 100%;
+    }
+
+    .article-trending {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .article-content h2 {
+        font-size: 36px;
+    }
+    #authors .container{
+        flex-wrap: wrap;
+    }
+
+   #authors .author-box{
+    width: 45%;
+   }
+     #authors h2 {
+        font-size: 36px;
+    }
+    #authors .author-detailse p{
+        padding: 0 10px;
+    }
+   .rebels-box-avatar img{
+    width: 20%;
+   }
+   footer .copy{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+   }
+}
+@media (max-width: 768px){
+.nav-list ul{
+    display: none;
+}
+#hero{
+    flex-wrap: wrap;
+}
+.hero-details p{
+    width: 100%;
+}
+ .hero-img{
+    width: 100%;
+ }
+  #authors .author-box{
+    width: 90%;
+   }
+   .community-box{
+    flex-wrap: wrap;
+   }
+   footer .footer-boxes{
+    flex-wrap: wrap;
+   }
+   .footer-logo{
+    width: 100%;
+   }
+   .footer-list{
+    width: 20%;
+}
+   .footer-search{
+    width: 70%;
+}
+}
+@media (max-width: 768px){
+    .hero-details h1{
+        font-size: 52px;
+         line-height: 60px;
+          width: 80%;
+    }
+    .hero-img{
+        padding: 20px 0;
+    }
+    .hero-img img{
+         transform: rotate(0deg)
+    }
+    .hero-img .img-badge{
+        display: none;
+    }
+    .article-content-details .box{
+        flex-wrap: wrap;
+
+    }
+    .box-img{
+    width: 80%;
+}
+    .article-content .button-badge {
+        display: none;
+    }
+    .box-content p{
+         display: none;
+    }
+    .comm-deatails h2{
+        font-size: 36px;
+    }
+    .become h3{
+        font-size: 27px;
+    }
+    .become-list li{
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+    .become .join-btn{
+        padding: 10px 20px;
+    }
+    .rebels h3 {
+        font-size: 18px;
+    }
+    .footer-search{
+        width: 100%;
+    }
+}
+
+
